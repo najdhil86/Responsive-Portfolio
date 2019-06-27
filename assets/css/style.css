@@ -4,6 +4,10 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+
+  /* Adding margin of zero to body. Fixing bug of nav footer showing whitespace on top of nav and bottom */
+  
+  margin: 0px;
 }
 
 * {
@@ -80,6 +84,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  display: inline;
 }
 
 nav a {
@@ -180,6 +185,7 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style: none;
 }
 
 #contact-form li {
@@ -228,7 +234,7 @@ input[type=submit] {
   }
 
   .main-section{
-    width: 65%;
+    width: 68%;
   }
 
   body{
@@ -266,7 +272,7 @@ input[type=submit] {
   }
 
   #masthead nav {
-    width: 72%%;
+    width: 72%;
   }
   
   .container {
@@ -281,10 +287,10 @@ input[type=submit] {
     margin: 16px;
   }
 
-  body{
+  body {
     margin: 0px;
   }
-
+/* Readjust Cat image to adjust with width chagne of 640px */
   .auth-image {
 
     width: inherit;
@@ -294,4 +300,8 @@ input[type=submit] {
     margin-left: inherit;
   }
 
-}
+/* for Portfolio.html setting width to 100% when the user reaches a width of 640px  */
+  .work {
+
+    width: 100%;
+  }
