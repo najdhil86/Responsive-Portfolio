@@ -225,8 +225,15 @@ input[type=submit] {
 /* Index.html @media queries for 980px */
 
 @media screen and (max-width: 980px) {
+  
+  #masthead {
+
+    overflow: hidden;
+  }
+  
   #masthead nav {
     width: 40%;
+    
   }
   
   .container {
